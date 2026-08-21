@@ -1,0 +1,132 @@
+{
+  "source": {
+    "name": "Common Paper",
+    "url": "https://github.com/CommonPaper",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "retrieved_at": "2026-08-20",
+  "templates_dir": "templates",
+  "templates": [
+    {
+      "name": "Mutual Non-Disclosure Agreement (Standard Terms)",
+      "description": "Standard Terms for a mutual NDA governing how each party may use and protect confidential information disclosed for an agreed purpose. Pairs with the MNDA Cover Page, which carries the deal-specific variables.",
+      "filename": "mutual-nda.md",
+      "source_repo": "CommonPaper/Mutual-NDA",
+      "source_path": "Mutual-NDA.md",
+      "source_commit": "2a3068b6c0ab6015c440f541d5b215bc3ac2f4cb",
+      "version": "1.0",
+      "canonical_url": "https://commonpaper.com/standards/mutual-nda/1.0"
+    },
+    {
+      "name": "Mutual Non-Disclosure Agreement (Cover Page)",
+      "description": "Fill-in-the-blank Cover Page for the mutual NDA, capturing purpose, term, governing law, and the signature block. Incorporates the MNDA Standard Terms by reference; bracketed fields mark the values to be negotiated.",
+      "filename": "mutual-nda-cover-page.md",
+      "source_repo": "CommonPaper/Mutual-NDA",
+      "source_path": "Mutual-NDA-coverpage.md",
+      "source_commit": "2a3068b6c0ab6015c440f541d5b215bc3ac2f4cb",
+      "version": "1.0",
+      "canonical_url": "https://commonpaper.com/standards/mutual-nda/1.0"
+    },
+    {
+      "name": "Cloud Service Agreement",
+      "description": "Full terms for selling or buying a subscription cloud/SaaS product, covering access and use rights, order forms, fees, customer data, warranties, indemnities, and limits of liability.",
+      "filename": "cloud-service-agreement.md",
+      "source_repo": "CommonPaper/CSA",
+      "source_path": "CSA.md",
+      "source_commit": "4afc1f9d9ebad949a67a9585ed527e19f482492b",
+      "version": "1.0",
+      "canonical_url": "https://commonpaper.com/standards/cloud-service-agreement/1.0"
+    },
+    {
+      "name": "Service Level Agreement",
+      "description": "Uptime commitment and support terms used alongside the Cloud Service Agreement, defining target uptime, how availability is calculated, exclusions, support response times, and service credits.",
+      "filename": "service-level-agreement.md",
+      "source_repo": "CommonPaper/SLA",
+      "source_path": "sla.md",
+      "source_commit": "5b0e6336f058a66c4976d70ecabf1f5fb9ef3af4",
+      "version": "2.0",
+      "canonical_url": "https://commonpaper.com/standards/service-level-agreement/2.0"
+    },
+    {
+      "name": "Data Processing Agreement",
+      "description": "GDPR-oriented data processing addendum setting out controller, processor, and subprocessor roles, security measures, data subject requests, international transfers, and audit rights.",
+      "filename": "data-processing-agreement.md",
+      "source_repo": "CommonPaper/DPA",
+      "source_path": "DPA.md",
+      "source_commit": "9f1c40d3fb0bb900397a919d058a9c0870f6b0f0",
+      "version": "1.0",
+      "canonical_url": "https://commonpaper.com/standards/data-processing-agreement/1.0"
+    },
+    {
+      "name": "Design Partner Agreement",
+      "description": "Agreement for early-access design partnerships, covering product access during the program, feedback rights, confidentiality, and ownership of resulting improvements.",
+      "filename": "design-partner-agreement.md",
+      "source_repo": "CommonPaper/Design-Partner-Agreement",
+      "source_path": "design-partner-agreement.md",
+      "source_commit": "7e81fece7847ecf3e792806fc206960f16daa8cc",
+      "version": "1.0",
+      "canonical_url": "https://commonpaper.com/standards/design-partner-agreement/1.0"
+    },
+    {
+      "name": "Professional Services Agreement",
+      "description": "Master terms for delivering professional services under statements of work, addressing SOW mechanics, fees and expenses, customer policies, IP ownership of deliverables, and termination.",
+      "filename": "professional-services-agreement.md",
+      "source_repo": "CommonPaper/PSA",
+      "source_path": "psa.md",
+      "source_commit": "3fb650a72d229f6d6e6d64abebae5e83c6699535",
+      "version": "1.0",
+      "canonical_url": "https://commonpaper.com/standards/professional-services-agreement/1.0"
+    },
+    {
+      "name": "Partnership Agreement",
+      "description": "Terms for a commercial partnership between two companies, covering each party's obligations, fees and taxes, feedback, confidentiality, and mutual liability limits.",
+      "filename": "partnership-agreement.md",
+      "source_repo": "CommonPaper/Partnership-Agreement",
+      "source_path": "Partnership-Agreement.md",
+      "source_commit": "6edeb5a285206893cfd0ac482267db44d90f317c",
+      "version": "1.0",
+      "canonical_url": "https://commonpaper.com/standards/partnership-agreement/1.0"
+    },
+    {
+      "name": "Business Associate Agreement",
+      "description": "HIPAA business associate addendum governing a provider's use and disclosure of protected health information, safeguards, breach notification, subcontractors, and return or destruction of PHI.",
+      "filename": "business-associate-agreement.md",
+      "source_repo": "CommonPaper/BAA",
+      "source_path": "BAA.md",
+      "source_commit": "5f1fd992df1d0c78bf69997e1881e4107fa75695",
+      "version": "1.0",
+      "canonical_url": "https://commonpaper.com/standards/business-associate-agreement/1.0"
+    },
+    {
+      "name": "Software License Agreement",
+      "description": "Terms for licensing installed (on-premises) software, covering the license grant and permitted uses, delivery, restrictions, support, audits, warranties, and liability.",
+      "filename": "software-license-agreement.md",
+      "source_repo": "CommonPaper/Software-License-Agreement",
+      "source_path": "Software-License-Agreement.md",
+      "source_commit": "8ea7de38148a8a0c235b7aaf31487028c2e519ca",
+      "version": "1.0",
+      "canonical_url": "https://commonpaper.com/standards/software-license-agreement/1.0"
+    },
+    {
+      "name": "Pilot Agreement",
+      "description": "Short-form agreement for a time-boxed paid or free pilot, covering pilot-period access, evaluation purposes, feedback, and conversion into a full Cloud Service or Software License Agreement.",
+      "filename": "pilot-agreement.md",
+      "source_repo": "CommonPaper/Pilot-Agreement",
+      "source_path": "Pilot-Agreement.md",
+      "source_commit": "5e7cdd4678cd9d6b3178872cce4a01d632f41f14",
+      "version": null,
+      "canonical_url": null
+    },
+    {
+      "name": "AI Addendum",
+      "description": "Addendum layering AI-specific terms onto an existing product agreement, covering input and output rights, model training restrictions, acceptable use, accuracy disclaimers, and third-party AI providers.",
+      "filename": "ai-addendum.md",
+      "source_repo": "CommonPaper/AI-Addendum",
+      "source_path": "AI-Addendum.md",
+      "source_commit": "6d9b044df73a2477c177e5989fca7f8d27df9387",
+      "version": "1.0",
+      "canonical_url": "https://commonpaper.com/standards/ai-addendum/1.0"
+    }
+  ]
+}
